@@ -113,7 +113,7 @@ def init_test_data(window):
 # 3 - the event loop
 while True:
     event, values = window.read(timeout=10)
-    init_test_data(window)
+    # init_test_data(window)
     # print(event, values)
     if event in( sg.WIN_CLOSED,'Exit'):
         logging.info('Closed')
